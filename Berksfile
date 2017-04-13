@@ -2,6 +2,7 @@ source 'https://supermarket.chef.io'
 
 metadata
 
+cookbook 'build-essential', '= 3.2.0'
 cookbook 'poise', gem: 'poise'
 cookbook 'application', gem: 'poise-application'
 cookbook 'application_git', gem: 'poise-application-git'

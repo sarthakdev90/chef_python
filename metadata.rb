@@ -12,14 +12,6 @@ version '0.1.0'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Source` link
-# source_url 'https://github.com/<insert_org_here>/first_test' if respond_to?(:source_url)
-name 'first_test'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'all_rights'
-description 'Installs/Configures first_test'
-long_description 'Installs/Configures first_test'
-version '0.1.0'
 
 depends 'application', '~> 5.0'
 depends 'application_git', '~> 1.0'
